@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | End  |       | PgDn |        |      |
  *                                 | FN1  | LCtrl|------|       |------| RCtrl  |Space |
- *                                 |      |      | Alt  |       | Tab  |        |      |
+ *                                 |      |      | Alt  |       | `    |        |      |
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                              KC_UP, KC_DOWN,KC_LBRC,KC_RBRC,          KC_DELT,
         KC_PGUP,     KC_FN1,
         KC_PGDN,
-        KC_TAB,      KC_RCTL, KC_SPC
+        KC_GRV,      KC_RCTL, KC_SPC
     ),
 /* Keymap 1: Base Function Layer
  *
@@ -120,7 +120,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | End  |       | PgDn |        |      |
  *                                 |Space | LCtrl|------|       |------| RCtrl  |Space |
- *                                 |      |      | Alt  |       | Tab  |        |      |
+ *                                 |      |      | Alt  |       | `    |        |      |
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
@@ -143,7 +143,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                              KC_UP, KC_DOWN,KC_LBRC,KC_RBRC,          KC_DELT,
         KC_PGUP,     KC_FN3,
         KC_PGDN,
-        KC_TAB,      KC_RCTL, KC_SPC
+        KC_GRV,      KC_RCTL, KC_SPC
     ),
 /* Keymap 3: Game Function Layer
  *
